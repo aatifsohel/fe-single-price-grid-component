@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -14,18 +13,57 @@
     <link rel="stylesheet" href="styles.css" />
 
     <title>Frontend Mentor | Single Price Grid Component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style></style>
   </head>
   <body>
-    Join our community 30-day, hassle-free money back guarantee Gain access to
-    our full library of tutorials along with expert code reviews. Perfect for
-    any developers who are serious about honing their skills. Monthly
-    Subscription &dollar;29 per month Full access for less than &dollar;1 a day
-    Sign Up Why Us Tutorials by industry experts Peer &amp; expert code review
-    Coding exercises Access to our GitHub repos Community forum Flashcard decks
-    New videos every week
+    <main class="main">
+      <article class="component">
+        <header class="component-header">
+          <h1 class="heading-primary">Join our community</h1>
+          <span class="subheading">
+            30-day, hassle-free money back guarantee</span
+          >
+          <p class="description">
+            Gain access to our full library of tutorials along with expert code
+            reviews. Perfect for any developers who are serious about honing
+            their skills.
+          </p>
+        </header>
+
+        <div class="pricing">
+          <div class="subscription">
+            <h2 class="heading-secondary">Monthly Subscription</h2>
+            <div class="pricing">
+              <span class="price">&dollar;29</span>
+              <span class="pay-by"> per month </span>
+            </div>
+            <p class="subscription-details">
+              Full access for less than &dollar;1 a day
+            </p>
+            <a href="#" class="btn"> Sign Up</a>
+          </div>
+
+          <div class="why-us">
+            <h2 class="heading-secondary">Why Us</h2>
+
+            <div class="features">
+              <ul class="features-list">
+                <li class="features-list-item">
+                  Tutorials by industry experts
+                </li>
+                <li class="features-list-item">
+                  Peer &amp; expert code review
+                </li>
+                <li class="features-list-item">Coding exercises</li>
+                <li class="features-list-item">Access to our GitHub repos</li>
+                <li class="features-list-item">Community forum</li>
+                <li class="features-list-item">Flashcard decks</li>
+                <li class="features-list-item">New videos every week</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
 
     <footer class="footer">
       <p class="attribution">
